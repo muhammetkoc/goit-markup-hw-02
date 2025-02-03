@@ -1,0 +1,136 @@
+body{
+    font-family: "Roboto",sans-serif;
+    color:#434455;
+    font-size:16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+h1{
+    font-weight: bold;
+    font-size:56px;
+}
+h2{
+    font-weight: bold;
+    font-size: 36px;
+}
+h3{
+    font-weight: medium;
+    font-size:20px;
+}
+button{
+    letter-spacing: 4%;
+}
+a{
+    font-size:12px;
+    letter-spacing: 4%;
+    text-decoration: underline;
+}
+ol, ul  {
+    list-style-type: none;
+    
+}
+/*header*/
+#header{
+    width: 100%;
+    
+}
+.logo{
+    font-size:18px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    text-decoration: none;
+    color: #2E2F42;
+}
+.logo span{
+    color: #4D5AE5;
+}
+
+#header a{
+    text-decoration: none;
+    color: #2E2F42;
+    font-size:16px;
+    font-weight: medium;
+}
+#header  a:hover{
+    color:#404BBF;
+}
+#header> nav  a:active{
+    text-decoration: underline;
+    text-decoration-color: #404BBF;
+    color:#404BBF;
+}
+
+/*SLIDER*/
+#slider{
+    width: 100%;
+    height: 600px;
+    background-color: #2E2F42;
+    text-align: center;
+    
+}
+#slider h1{
+    color:#ffffff;
+}
+.blue_button{
+    text-align: center;
+    color:white;
+    background-color:#4D5AE5;
+    width: 169px;
+    height: 56px;
+    border-radius: 4px;
+    font-size:16px;
+    font-weight: medium;
+    border: none;
+    cursor: pointer;
+}
+.blue_button:hover{
+    background-color: #404BBF;
+}
+.about_us{
+    width: 100%;
+    
+}
+.about_us  li{
+    width: 264px;
+    height: 104px;
+}
+/*OUR TEAM*/
+#our_team{
+    background-color: #F4F4FD;
+}
+#our_team ul {
+    list-style: none outside none;
+}
+#our_team li{
+    background-color: #ffffff;
+    width: 264px;
+    height: 380px;
+    text-align: center;
+}
+/*OUR PORTFOLIO*/
+#our_portfolio{
+    text-align: center;
+
+}
+#our_portfolio li{
+    width: 360px;
+    height: 420px;
+}
+/*FOOTER*/
+footer{
+    width: 100%;
+    height: 312px;
+    background-color: #2E2F42;
+    letter-spacing: 17.33;
+}
+footer .logo{
+    color:#ffffff;
+}
+footer p{
+    width: 264px;
+    height: 72px;
+    color:#ffffff;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4%;
+}
