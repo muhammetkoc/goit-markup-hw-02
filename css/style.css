@@ -35,17 +35,19 @@ ol, ul  {
     width: 100%;
     
 }
-.footer-logo{
+.header-logo{
     font-family: "Raleway",sans-serif;
     font-size:18px;
     font-weight: 700;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     text-decoration: none;
     color: #4d5ae5;
     
 }
-.footer_logo_second{
-    color: #F4F4FD;
+.header_logo_second{
+    color: #2e2f42;
 }
 
 menu{
@@ -74,10 +76,12 @@ menu:active{
 .slider_title{
     color:#ffffff;
     line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 .blue_button{
     font-family: "Roboto", sans-serif;
     text-align: center;
+    letter-spacing: 0.04em;
     color:white;
     background-color:#4D5AE5;
     width: 169px;
@@ -88,6 +92,7 @@ menu:active{
     line-height: 1.5;
     border: none;
     cursor: pointer;
+
 }
 .blue_button:hover{
     background-color: #404BBF;
@@ -100,6 +105,19 @@ menu:active{
     
 }
 /*ABOUT US*/
+.about_us_list{
+
+}
+.about_us_subtitle{
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.about_us_content{
+    letter-spacing: 0.02em;
+}
+
 .about_us  li{
     width: 264px;
     height: 104px;
@@ -114,6 +132,7 @@ menu:active{
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    letter-spacing: 0.02em;
 }
 .our_team_list{
 
@@ -121,10 +140,12 @@ menu:active{
 .our_team_sub_title{
     font-weight: 500;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
 .our_team_content{
     font-size: 16px;
+    letter-spacing: 0.02em;
 }
 .our_team ul {
     list-style: none outside none;
@@ -149,11 +170,16 @@ menu:active{
     line-height: 1.11;
     text-transform: capitalize;
     color:#2e2f42;
+    letter-spacing: 0.02em;
 }
 .portfolio-sub-title{
     font-weight: 500;
     line-height: 1.2;
     color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+.portfolio-content{
+    letter-spacing: 0.02em;
 }
 /*FOOTER*/
 footer{
@@ -163,17 +189,24 @@ footer{
     background-color: #2E2F42;
     letter-spacing: 17.33;
 }
-.footer .logo{
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:#4d5ae5;
-}
+
 .footer-text{
     width: 264px;
     height: 72px;
     color:#F4F4FD;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 4%;
+    letter-spacing: 0.02em;
+}
+.footer-logo{
+    line-height: 1.17;
+    font-size:18px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #4d5ae5;
+    
+}
+.footer_logo_second{
+    color: #F4F4FD;
 }
