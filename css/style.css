@@ -3,7 +3,6 @@ body{
     color:#434455;
     font-size:16px;
     line-height: 1.5;
-    letter-spacing: 2%;
     background-color: #ffffff;
 }
 h1{
@@ -19,11 +18,9 @@ h3{
     font-size:20px;
 }
 button{
-    letter-spacing: 4%;
 }
 a{
     font-size:12px;
-    letter-spacing: 4%;
     text-decoration: underline;
 }
 ol, ul  {
@@ -99,7 +96,6 @@ menu:active{
     background-color:#4D5AE5;
     width: 169px;
     height: 56px;
-    border-radius: 4px;
     font-size:16px;
     font-weight: 500;
     line-height: 1.5;
@@ -113,11 +109,11 @@ menu:active{
 .blue_button:focus{
     background-color: #404BBF;
 }
+
+/*ABOUT US*/
 .about_us{
-    width: 100%;
     
 }
-/*ABOUT US*/
 .about_us_list{
 
 }
