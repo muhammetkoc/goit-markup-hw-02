@@ -29,7 +29,6 @@ ol, ul  {
 }
 /*header*/
 #header{
-    width: 100%;
     
 }
 .header-logo{
@@ -77,8 +76,6 @@ menu:active{
 
 /*SLIDER*/
 .slider{
-    width: 100%;
-    height: 600px;
     background-color: #2E2F42;
     text-align: center;
     
@@ -94,8 +91,6 @@ menu:active{
     letter-spacing: 0.04em;
     color:white;
     background-color:#4D5AE5;
-    width: 169px;
-    height: 56px;
     font-size:16px;
     font-weight: 500;
     line-height: 1.5;
@@ -128,8 +123,6 @@ menu:active{
 }
 
 .about_us  li{
-    width: 264px;
-    height: 104px;
 }
 
 /*OUR TEAM*/
@@ -161,8 +154,6 @@ menu:active{
 }
 .our_team li{
     background-color: #ffffff;
-    width: 264px;
-    height: 380px;
     text-align: center;
 }
 
@@ -172,8 +163,6 @@ menu:active{
 
 }
 #our_portfolio li{
-    width: 360px;
-    height: 420px;
 }
 .portfolio-title{
     line-height: 1.11;
@@ -193,15 +182,11 @@ menu:active{
 /*FOOTER*/
 footer{
     font-family: "Raleway",sans-serif;
-    width: 100%;
-    height: 312px;
     background-color: #2E2F42;
     letter-spacing: 17.33;
 }
 
 .footer-text{
-    width: 264px;
-    height: 72px;
     color:#F4F4FD;
     font-weight: 400;
     line-height: 24px;
